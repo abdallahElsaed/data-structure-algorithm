@@ -35,22 +35,33 @@ func (q *queue) print()  {
 }
 
 func main() {
-	queue := &queue{
-		data: make([]int, 0),
+	// queue := &queue{
+	// 	data: make([]int, 0),
+	// }
+//! implement queue with array.
+	// queue.enqueue(1)
+	// queue.enqueue(3)
+	// queue.enqueue(5)
+	// queue.dequeue()
+	// queue.dequeue()
+	// queue.dequeue()
+	// queue.peek()
+	// queue.isEmpty()
+	// queue.print()
+
+//! implement queue with linked list.
+llQueue := &QueueLinkedList{
+		front: nil,
+		end: nil,
 	}
 
-	queue.enqueue(1)
-	queue.enqueue(3)
-	queue.enqueue(5)
+	llQueue.enqueueLl(1)
+	llQueue.enqueueLl(2)
+	llQueue.enqueueLl(3)
+	// llQueue.dequeueLl()
 
-	queue.dequeue()
-	// queue.dequeue()
-	// queue.dequeue()
-
-	// queue.peek()
-
-	// queue.isEmpty()
-	queue.print()
+	llQueue.frontLl()
+	// llQueue.printLl()
 
 
 }
