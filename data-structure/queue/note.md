@@ -43,8 +43,9 @@
     * make the front equal old front next 
 
 
+## Resource
+* [Queue Using Linked List (Article)]( https://www.shiksha.com/online-courses/articles/queue-using-linked-list-blogId-144377)
+*  [Linked List implementation of Queue (Video)](https://www.youtube.com/watch?v=A5_XdiK4J8A)
 
-## Note:
-> ```
-> if you want to test this code in your system you can make it local by download go dependance or you can check in (https://go.dev/play/)
-> ```
+
+

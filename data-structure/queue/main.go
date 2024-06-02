@@ -68,6 +68,6 @@ llQueue := &QueueLinkedList{
 /* Note in go 
 	* You can make slice by make() 	  
 	* You can push new element to array by append()
-	* You mast reassign to queue data slice when make any update like this 
+	* You must reassign to queue data slice when make any update like this 
 		- q.data  = append(q.data, item)
 */
