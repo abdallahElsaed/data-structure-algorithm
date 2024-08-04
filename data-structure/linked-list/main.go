@@ -102,8 +102,15 @@ func (ll *LinkedList) deleteAtMiddle( key int) {
 	* make 3 variable 
 		- next -> to keep the address of the next node 
 		- current -> to iterate over the list 
-		- previous -> to save the address of the previous node and make current.next to equal the previous and make the revers 
-
+		- previous -> to save the address of the previous node and make current.next to equal the previous and make the reverse 
+	** explain the steps:
+	1- initialize three variables [current, next, previous]
+	2- loop over the linked list when the current != null
+	3- make the next var assigned to next node of the current
+	5- reverse the next of the current to assign to the previous node
+	6- the previous variable moves to the current node
+	7- the current node moves to the next node
+	8- after the loop finished the list is finished At this point make the head assign to the previous variable(node)
 */
 func (ll *LinkedList) reverse(){
 	var previous , next *Node 
